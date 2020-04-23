@@ -18,9 +18,9 @@ procedure IrAlBordeDeLaPista(direccion) {
 	}
 }
 
-Dar vuelta {
-	Ir al borde de la pista (Norte)
-	Ir al borde de la pista (Este)
-	Ir al borde de la pista (Sur)
-	Ir al borde de la pista (Oeste)
+procedure DarVuelta() {
+	IrAlBordeDeLaPista(Norte)
+	IrAlBordeDeLaPista(Este)
+	IrAlBordeDeLaPista(Sur)
+	IrAlBordeDeLaPistaIr(Oeste)
 }
