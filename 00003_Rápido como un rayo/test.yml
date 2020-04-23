@@ -115,6 +115,7 @@ examples:
      cell 3 3 Verde 1 
      cell 3 2 Verde 1
      cell 3 1 Verde 1
+     cell 2 1 Verde 1
      cell 4 3 Rojo 10 
      cell 0 2 Rojo 10 
      cell 1 2 Verde 1 
