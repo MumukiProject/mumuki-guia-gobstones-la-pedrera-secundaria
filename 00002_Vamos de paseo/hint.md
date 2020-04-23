@@ -1,0 +1,1 @@
+Para mover al auto, tenés que sacarlo, moverte en la dirección que quieras y luego volver a ponerlo.
