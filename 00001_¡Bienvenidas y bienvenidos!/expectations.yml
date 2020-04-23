@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:EncenderAuto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:EncenderAuto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: EncenderAuto
+  inspection: UsesIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:autoEstaApagado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: EncenderAuto
+  inspection: Uses:autoEstaApagado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:program
+  inspection: Not:Uses:autoEstaApagado
