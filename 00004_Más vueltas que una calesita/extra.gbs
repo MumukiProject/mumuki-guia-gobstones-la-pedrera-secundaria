@@ -6,21 +6,18 @@ procedure MoverAutoAl(direccion) {
 	Poner(Rojo)
 	Poner(Verde)
 }
-
 function hayPastoAl(direccion) {
   Mover(direccion)
 	return (hayBolitas(Rojo))
 }
-
 procedure IrAlBordeDeLaPista(direccion) {
 	while(not(hayPastoAl(direccion))) {
 		MoverAutoAl(direccion)
 	}
 }
-
 procedure DarVuelta() {
 	IrAlBordeDeLaPista(Norte)
 	IrAlBordeDeLaPista(Este)
 	IrAlBordeDeLaPista(Sur)
-	IrAlBordeDeLaPistaIr(Oeste)
+	IrAlBordeDeLaPista(Oeste)
 }
