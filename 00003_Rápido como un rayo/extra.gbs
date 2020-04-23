@@ -1,12 +1,13 @@
 procedure MoverAutoAl(direccion) {
-	Sacar Negro
-	Sacar Rojo	
+	Sacar(Negro)
+	Sacar(Rojo)	
 	Mover(direccion)
-	Poner Negro
-	Poner Rojo
-	Poner Verde
+	Poner(Negro)
+	Poner(Rojo)
+	Poner(Verde)
 }
 
-function hayPasto() {
+function hayPastoAl(direccion) {
+  Mover(direccion)
 	return (hayBolitas(Rojo))
 }

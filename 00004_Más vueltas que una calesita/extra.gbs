@@ -1,0 +1,26 @@
+procedure MoverAutoAl(direccion) {
+	Sacar(Negro)
+	Sacar(Rojo)	
+	Mover(direccion)
+	Poner(Negro)
+	Poner(Rojo)
+	Poner(Verde)
+}
+
+function hayPastoAl(direccion) {
+  Mover(direccion)
+	return (hayBolitas(Rojo))
+}
+
+procedure IrAlBordeDeLaPista(direccion) {
+	while(not(hayPastoAl(direccion))) {
+		MoverAutoAl(direccion)
+	}
+}
+
+Dar vuelta {
+	Ir al borde de la pista (Norte)
+	Ir al borde de la pista (Este)
+	Ir al borde de la pista (Sur)
+	Ir al borde de la pista (Oeste)
+}

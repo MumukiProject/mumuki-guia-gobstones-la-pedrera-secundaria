@@ -1,0 +1,8 @@
+program {
+	CorrerCarrera(5)
+	CorrerCarrera(2)
+}
+
+procedure CorrerCarrera(vueltas) {
+  
+}

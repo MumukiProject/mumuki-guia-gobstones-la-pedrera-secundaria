@@ -1,4 +1,4 @@
-Para ir al borde de la pista hay que mover al auto mientras no haya pasto. Te dejamos una pista de ejemplo:
+Para ir al borde de la pista hay que mover al auto mientras no haya pasto en la dirección en que se mueve. Te dejamos una pista de ejemplo:
 
 <gs-board>
 	   GBB/1.0
