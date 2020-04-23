@@ -59,7 +59,7 @@ examples:
      cell 5 3 Verde 1 
      cell 6 3 Rojo 10 
      cell 0 2 Rojo 10 
-     cell 1 2 Azul 1 Negro 1 Rojo 1 Verde 1 
+     cell 1 1 Azul 1 Negro 1 Rojo 1 Verde 1 
      cell 2 2 Rojo 10 
      cell 3 2 Rojo 10 
      cell 4 2 Rojo 10 
