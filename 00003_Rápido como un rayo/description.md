@@ -1,4 +1,4 @@
-<gs-attire attire-url="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-la-pedrera-secundaria/master/assets/attires/config_1587654826104.json"></gs-attire>
+<gs-attire attire-url="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-la-pedrera-secundaria/master/assets/attires/config_1587664720003.json"></gs-attire>
 
 Ya sacamos el auto de uno de los 50 box con los que cuenta La Pedrera :wrench:. Es hora de correr una vuelta en la pista para calentar los motores y practicar. Nos van a tomar el tiempo cuando lleguemos a la meta :checkered_flag:, esperemos que el auto sea rápido :race_car::zap:. ¡Brummm!
 

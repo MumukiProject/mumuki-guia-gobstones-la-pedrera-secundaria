@@ -1,4 +1,4 @@
-<gs-attire attire-url="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-la-pedrera-secundaria/master/assets/attires/config_1587654826104.json"></gs-attire>
+<gs-attire attire-url="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-la-pedrera-secundaria/master/assets/attires/config_1587664720003.json"></gs-attire>
 
 Ya prendimos el auto y suena su motor, ¡hagamos que se mueva! :race_car:
 
