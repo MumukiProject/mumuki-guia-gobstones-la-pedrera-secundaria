@@ -1,0 +1,32 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:DarVuelta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:DarVuelta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:IrAlBordeDeLaPista
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:IrAlBordeDeLaPista
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: DarVuelta
+  inspection: Uses:IrAlBordeDeLaPista
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:program
+  inspection: Not:Uses:IrAlBordeDeLaPista
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:program
+  inspection: Not:UsesWhile
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:DarVuelta
+  inspection: Not:UsesWhile
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: IrAlBordeDeLaPista
+  inspection: Uses:hayPasto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: IrAlBordeDeLaPista
+  inspection: UsesWhile
