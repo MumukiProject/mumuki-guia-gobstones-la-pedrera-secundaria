@@ -24,7 +24,7 @@ examples:
      cell 4 2 Rojo 10 
      cell 6 2 Rojo 10 
      cell 0 1 Rojo 10 
-     cell 1 1 Azul 1 Negro 1 Rojo 1 
+     cell 1 1 Azul 1 Negro 1 Rojo 1 Verde 1
      cell 6 1 Rojo 10 
      cell 0 0 Rojo 10 
      cell 1 0 Rojo 10 
@@ -100,7 +100,7 @@ examples:
      cell 4 2 Rojo 10 
      cell 4 3 Rojo 10 
      cell 2 2 Rojo 10 
-     cell 1 1 Azul 1 Negro 1 Rojo 1 
+     cell 1 1 Azul 1 Negro 1 Rojo 1 Verde 1
      head 1 1
    final_board: |
      GBB/1.0
