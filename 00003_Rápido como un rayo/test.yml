@@ -121,12 +121,10 @@ examples:
      cell 0 2 Rojo 10 
      cell 1 2 Verde 1 
      cell 2 2 Rojo 10 
-     cell 3 2 Rojo 10 
      cell 4 2 Rojo 10 
      cell 0 1 Rojo 10 
      cell 1 1 Verde 1 
      cell 2 1 Rojo 10 
-     cell 3 1 Rojo 10 
      cell 4 1 Rojo 10 
      cell 0 0 Rojo 10 
      cell 1 0 Rojo 10
